@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://siegemind.com/sitemap.xml
+
+# Disallow crawling of temporary or admin files
+Disallow: /temp/
+Disallow: /admin/
+Disallow: /*.tmp
+
+# Allow access to CSS and JS files
+Allow: /css/
+Allow: /scripts/
+Allow: /images/

@@ -8,11 +8,63 @@
     SiegeMind - Master Rainbow Six Siege with Your Personal AI Coach
   </title>
   <meta name="description"
-    content="SiegeMind é o primeiro app de Personal AI Coaching para Rainbow Six Siege. Melhore sua performance com insights personalizados." />
+    content="SiegeMind é o primeiro app de Personal AI Coaching para Rainbow Six Siege. Melhore sua performance com insights personalizados e análises detalhadas." />
+  <meta name="keywords" content="Rainbow Six Siege, R6, AI coaching, gaming coach, siege analytics, performance tracking, esports, tactical shooter, ubisoft, gaming improvement" />
+  <meta name="author" content="SiegeMind Team" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="SiegeMind - Master Rainbow Six Siege with Your Personal AI Coach" />
+  <meta property="og:description" content="SiegeMind é o primeiro app de Personal AI Coaching para Rainbow Six Siege. Melhore sua performance com insights personalizados e análises detalhadas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://siegemind.com" />
+  <meta property="og:image" content="https://siegemind.com/images/siegemind_logo.png" />
+  <meta property="og:site_name" content="SiegeMind" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:locale:alternate" content="en_US" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SiegeMind - Master Rainbow Six Siege with Your Personal AI Coach" />
+  <meta name="twitter:description" content="SiegeMind é o primeiro app de Personal AI Coaching para Rainbow Six Siege. Melhore sua performance com insights personalizados." />
+  <meta name="twitter:image" content="https://siegemind.com/images/siegemind_logo.png" />
+
+  <!-- Additional SEO Meta Tags -->
+  <meta name="theme-color" content="#fdcd09" />
+  <meta name="msapplication-TileColor" content="#fdcd09" />
+  <meta name="application-name" content="SiegeMind" />
+  <link rel="canonical" href="https://siegemind.com" />
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "SiegeMind",
+    "description": "Personal AI Coaching app for Rainbow Six Siege players",
+    "url": "https://siegemind.com",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "Windows 10",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "SiegeMind Team"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "3"
+    }
+  }
+  </script>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-85TP605M2R"></script>
@@ -22,6 +74,15 @@
     gtag('js', new Date());
 
     gtag('config', 'G-85TP605M2R');
+
+    // Track CTA download clicks
+    function trackDownload(source) {
+      gtag('event', 'click', {
+        'event_category': 'CTA',
+        'event_label': source,
+        'value': 1
+      });
+    }
   </script>
 </head>
 
@@ -30,7 +91,7 @@
   <nav class="navbar">
     <div class="container">
       <div class="nav-brand">
-        <img src="images/siegemind_logo.png" alt="SiegeMind Logo" class="nav-logo" />
+        <img src="images/siegemind_logo.png" alt="SiegeMind - Logo do App de AI Coaching para Rainbow Six Siege" class="nav-logo" />
         <span class="nav-title">SiegeMind</span>
       </div>
 
@@ -67,7 +128,7 @@
         </p>
 
         <div class="hero-buttons">
-          <a href="https://forms.gle/Wcw7jnSLMTgFsB4E8" target="_blank" class="btn btn-primary">Download for free</a>
+          <a href="https://forms.gle/Wcw7jnSLMTgFsB4E8" target="_blank" class="btn btn-primary" onclick="trackDownload('hero')">Download for free</a>
           <!-- <a href="#how-it-works" class="btn btn-secondary">Watch Demo</a> -->
         </div>
 
@@ -108,7 +169,7 @@
   <section id="how-it-works" class="how-it-works">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">How It Works</h2>
+        <h2 class="section-title">Como o SiegeMind Funciona</h2>
         <p class="section-subtitle">
           From raw match data to actionable insights. Here's how SiegeMind
           transforms your gameplay
@@ -167,7 +228,7 @@
   <section class="testimonials">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">What Our Users Say</h2>
+        <h2 class="section-title">O que Nossos Usuários Dizem</h2>
         <p class="section-subtitle">
           From casual players to professionals everyone is working on their
           SiegeMind
@@ -342,14 +403,14 @@
             </ul>
           </div>
 
-          <a href="https://forms.gle/Wcw7jnSLMTgFsB4E8" target="_blank" class="btn btn-primary btn-large">
+          <a href="https://forms.gle/Wcw7jnSLMTgFsB4E8" target="_blank" class="btn btn-primary btn-large" onclick="trackDownload('download-section')">
             <i class="fas fa-download"></i> Download Alpha Version
           </a>
         </div>
 
         <div class="download-preview">
           <div class="app-window">
-            <img src="images/dashboard_preview.png" alt="Dashboard Preview" class="dashboard-image" />
+            <img src="images/dashboard_preview.png" alt="SiegeMind Dashboard - Interface do App de Analytics e Coaching para Rainbow Six Siege" class="dashboard-image" />
           </div>
         </div>
       </div>
@@ -361,7 +422,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-brand">
-          <img src="images/siegemind_icon.png" alt="SiegeMind Logo" class="footer-logo" />
+          <img src="images/siegemind_icon.png" alt="SiegeMind - Ícone do App de AI Coaching para R6" class="footer-logo" />
           <p class="footer-description">
             The ultimate AI coaching companion for Rainbow Six Siege players.
           </p>
