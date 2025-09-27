@@ -84,6 +84,11 @@
 .language-current i {
   font-size: 0.75rem;
   transition: transform 0.3s ease;
+  pointer-events: none;
+}
+
+.language-current .language-text {
+  pointer-events: none;
 }
 
 .language-selector.open .language-current i {
@@ -208,6 +213,13 @@
     background: rgba(255, 255, 255, 0.1);
     border-radius: var(--border-radius-md);
     transition: var(--transition);
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(253, 205, 9, 0.3);
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .language-current:hover {
@@ -224,6 +236,8 @@
     min-width: 80px;
     z-index: 1010;
     margin-top: var(--spacing-sm);
+    pointer-events: auto;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .language-option {
@@ -234,6 +248,7 @@
     justify-content: center;
     pointer-events: auto;
   }
+
 }
 
 /* Typography */
@@ -1005,7 +1020,7 @@ section {
     transform: translateY(-100%);
     opacity: 0;
     transition: var(--transition);
-    z-index: 1004;
+    z-index: 1;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   }
 

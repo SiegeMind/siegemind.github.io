@@ -484,25 +484,36 @@ class I18n {
                 option.classList.add('active');
             }
 
-            option.addEventListener('click', (e) => {
+            const selectLanguage = (e) => {
                 e.preventDefault();
+                e.stopPropagation();
                 this.changeLanguage(lang);
-            });
+            };
+
+            option.addEventListener('click', selectLanguage);
+            option.addEventListener('touchend', selectLanguage);
 
             dropdown.appendChild(option);
         });
 
-        currentButton.addEventListener('click', (e) => {
+        const toggleDropdown = (e) => {
             e.preventDefault();
+            e.stopPropagation();
             selector.classList.toggle('open');
-        });
+        };
+
+        currentButton.addEventListener('click', toggleDropdown);
+        currentButton.addEventListener('touchend', toggleDropdown);
 
         // Close dropdown when clicking outside
-        document.addEventListener('click', (e) => {
+        const closeDropdown = (e) => {
             if (!selector.contains(e.target)) {
                 selector.classList.remove('open');
             }
-        });
+        };
+
+        document.addEventListener('click', closeDropdown);
+        document.addEventListener('touchend', closeDropdown);
 
         selector.appendChild(currentButton);
         selector.appendChild(dropdown);

@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
         function toggleMenu(e) {
             e.preventDefault();
             e.stopPropagation();
-            console.log('Nav toggle activated!'); // Debug log
             navMenu.classList.toggle('active');
         }
 
