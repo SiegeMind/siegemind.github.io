@@ -5,9 +5,15 @@ document.addEventListener('DOMContentLoaded', function() {
     const navMenu = document.querySelector('.nav-menu');
 
     if (navToggle && navMenu) {
-        navToggle.addEventListener('click', function() {
+        function toggleMenu(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Nav toggle activated!'); // Debug log
             navMenu.classList.toggle('active');
-        });
+        }
+
+        navToggle.addEventListener('click', toggleMenu);
+        navToggle.addEventListener('touchend', toggleMenu);
 
         // Close menu when clicking outside
         document.addEventListener('click', function(e) {
