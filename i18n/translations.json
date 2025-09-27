@@ -1,0 +1,419 @@
+{
+  "pt-BR": {
+    "nav": {
+      "home": "Home",
+      "howItWorks": "Como Funciona",
+      "roadmap": "Roadmap",
+      "joinBeta": "Participar do Beta"
+    },
+    "hero": {
+      "title": "Domine Rainbow Six Siege<br />com seu <span class=\"highlight\">Coach Pessoal de IA</span>",
+      "subtitle": "SiegeMind é o primeiro app de Personal AI Coaching para Rainbow<br />Six Siege. Obtenha insights de performance direto no seu gameplay.",
+      "joinBeta": "Participar do Beta",
+      "features": {
+        "personalizedInsights": "Insights Personalizados",
+        "performanceDashboard": "Dashboard de Performance Online",
+        "veteranProfessionals": "Criado por Profissionais Veteranos"
+      },
+      "stats": {
+        "currentUsers": "Usuários Atuais",
+        "matchesStudied": "Partidas Estudadas",
+        "insightsGenerated": "Insights Gerados"
+      }
+    },
+    "howItWorks": {
+      "title": "Como o SiegeMind funciona",
+      "subtitle": "De dados brutos de partida para insights acionáveis. Veja como o SiegeMind transforma seu gameplay",
+      "steps": {
+        "dataCollection": {
+          "title": "Coleta de Dados",
+          "description": "SiegeMind captura automaticamente seus dados de partida, incluindo kills, mortes, operadores usados e resultados de rounds."
+        },
+        "dataProcessing": {
+          "title": "Processamento de Dados",
+          "description": "Nossa IA analisa seus padrões de performance, identificando forças, fraquezas e oportunidades de melhoria."
+        },
+        "aiAnalysis": {
+          "title": "Análise de IA",
+          "description": "Algoritmos avançados fornecem insights personalizados e recomendações de coaching baseadas no seu estilo único de jogo."
+        },
+        "actionableInsights": {
+          "title": "Insights Acionáveis",
+          "description": "Receba relatórios detalhados com recomendações específicas para melhorar seu gameplay e performance competitiva."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "O que Nossos Usuários Dizem",
+      "subtitle": "De jogadores casuais a profissionais, todos estão trabalhando no seu SiegeMind",
+      "reviews": {
+        "alex": "\"SiegeMind me mostrou exatamente por que eu estava perdendo rounds. Meu posicionamento melhorou drasticamente e finalmente alcancei Gold!\"",
+        "mike": "\"O coaching de IA é incrível. Identificou padrões no meu gameplay que eu nunca percebi. Mudança de jogo!\"",
+        "sarah": "\"Como jogadora competitiva, análises detalhadas são cruciais. SiegeMind fornece exatamente o que eu preciso.\""
+      }
+    },
+    "roadmap": {
+      "title": "Product <span class=\"highlight\">Roadmap</span>",
+      "subtitle": "Acompanhe a evolução do SiegeMind e veja o que está por vir",
+      "status": {
+        "current": "ATUAL",
+        "next": "PRÓXIMO",
+        "future": "FUTURO"
+      },
+      "phases": {
+        "core": {
+          "title": "Sistema Central de Coaching de IA",
+          "features": [
+            "✅ Insights pessoais de partida",
+            "✅ Avaliação estratégica de IA",
+            "✅ Insights de performance",
+            "✅ Revisão de análises de performance"
+          ]
+        },
+        "enhanced": {
+          "title": "Análises Aprimoradas",
+          "features": [
+            "📊 Dashboard de estatísticas avançadas",
+            "📈 Recurso de comparação de jogadores",
+            "🎯 Análise detalhada de operadores",
+            "📋 Precisão aprimorada de insights"
+          ]
+        },
+        "team": {
+          "title": "Recursos de Equipe",
+          "features": [
+            "👥 Análise de equipe",
+            "📊 Performance de esquadrão",
+            "🎮 Sistema colaborativo de coaching",
+            "📈 Análises avançadas de jogadores"
+          ]
+        },
+        "advanced": {
+          "title": "IA Avançada & Integrações",
+          "features": [
+            "🤖 IA de coaching aprimorada",
+            "🎥 Integração de análise de vídeo",
+            "📱 App companheiro móvel",
+            "🔄 Integrações de serviços externos"
+          ]
+        }
+      }
+    },
+    "download": {
+      "title": "Download <span class=\"highlight\">SiegeMind</span>",
+      "subtitle": "Comece a melhorar seu gameplay hoje com nossa versão alpha",
+      "systemRequirements": "Requisitos do Sistema:",
+      "requirements": [
+        "Windows 10 64-bit",
+        "App Overwolf",
+        "Rainbow Six Siege instalado",
+        "Conexão ativa com a internet"
+      ],
+      "whatsIncluded": "O que está Incluído:",
+      "included": [
+        "Sistema de Coaching de IA",
+        "Análises de Performance",
+        "Rastreamento de Progresso",
+        "Análise de Histórico de Partidas"
+      ],
+      "downloadButton": "Participar do Beta"
+    },
+    "footer": {
+      "description": "O companheiro definitivo de coaching de IA para jogadores de Rainbow Six Siege.",
+      "product": "Produto",
+      "support": "Suporte",
+      "links": {
+        "howItWorks": "Como Funciona",
+        "roadmap": "Roadmap",
+        "download": "Download",
+        "documentation": "Documentação",
+        "faq": "FAQ",
+        "contact": "Contato"
+      },
+      "copyright": "© 2025 SiegeMind. Todos os direitos reservados."
+    },
+    "meta": {
+      "title": "SiegeMind - Domine Rainbow Six Siege com seu Coach Pessoal de IA",
+      "description": "SiegeMind é o primeiro app de Personal AI Coaching para Rainbow Six Siege. Melhore sua performance com insights personalizados e análises detalhadas.",
+      "keywords": "Rainbow Six Siege, R6, coaching de IA, coach de gaming, analytics do siege, rastreamento de performance, esports, tactical shooter, ubisoft, melhoria de gaming"
+    }
+  },
+  "en-US": {
+    "nav": {
+      "home": "Home",
+      "howItWorks": "How it Works",
+      "roadmap": "Roadmap",
+      "joinBeta": "Join Beta Waitlist"
+    },
+    "hero": {
+      "title": "Master Rainbow Six Siege<br />with Your <span class=\"highlight\">Personal AI Coach</span>",
+      "subtitle": "SiegeMind is the first-ever Personal AI Coaching app for Rainbow<br />Six Siege. Get performance insights straight to your gameplay.",
+      "joinBeta": "Join Beta Waitlist",
+      "features": {
+        "personalizedInsights": "Personalized Insights",
+        "performanceDashboard": "Online Performance Dashboard",
+        "veteranProfessionals": "Created by Veteran Professionals"
+      },
+      "stats": {
+        "currentUsers": "Current Users",
+        "matchesStudied": "Matches Studied",
+        "insightsGenerated": "Insights Generated"
+      }
+    },
+    "howItWorks": {
+      "title": "How SiegeMind works",
+      "subtitle": "From raw match data to actionable insights. Here's how SiegeMind transforms your gameplay",
+      "steps": {
+        "dataCollection": {
+          "title": "Data Collection",
+          "description": "SiegeMind automatically captures your match data, including kills, deaths, operators used, and round outcomes."
+        },
+        "dataProcessing": {
+          "title": "Data Processing",
+          "description": "Our AI analyzes your performance patterns, identifying strengths, weaknesses, and improvement opportunities."
+        },
+        "aiAnalysis": {
+          "title": "AI Analysis",
+          "description": "Advanced algorithms provide personalized insights and coaching recommendations based on your unique playstyle."
+        },
+        "actionableInsights": {
+          "title": "Actionable Insights",
+          "description": "Receive detailed reports with specific recommendations to improve your gameplay and climbing performance."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "What Our Users Say",
+      "subtitle": "From casual players to professionals everyone is working on their SiegeMind",
+      "reviews": {
+        "alex": "\"SiegeMind showed me exactly why I was losing rounds. My positioning improved drastically and I finally hit Gold!\"",
+        "mike": "\"The AI coaching is incredible. It identified patterns in my gameplay that I never noticed. Game changer!\"",
+        "sarah": "\"As a competitive player, detailed analytics are crucial. SiegeMind provides exactly what I need.\""
+      }
+    },
+    "roadmap": {
+      "title": "Product <span class=\"highlight\">Roadmap</span>",
+      "subtitle": "Follow the evolution of SiegeMind and see what's coming next",
+      "status": {
+        "current": "CURRENT",
+        "next": "NEXT",
+        "future": "FUTURE"
+      },
+      "phases": {
+        "core": {
+          "title": "Core AI Coaching System",
+          "features": [
+            "✅ Personal match insights",
+            "✅ AI strategic assessment",
+            "✅ Performance insights",
+            "✅ Performance analytics review"
+          ]
+        },
+        "enhanced": {
+          "title": "Enhanced Analytics",
+          "features": [
+            "📊 Advanced statistics dashboard",
+            "📈 Player comparison feature",
+            "🎯 Detailed operator analysis",
+            "📋 Improved insights accuracy"
+          ]
+        },
+        "team": {
+          "title": "Team Features",
+          "features": [
+            "👥 Team analysis",
+            "📊 Squad Performance",
+            "🎮 Collaborative coaching system",
+            "📈 Advanced player analytics"
+          ]
+        },
+        "advanced": {
+          "title": "Advanced AI & Integrations",
+          "features": [
+            "🤖 Enhanced coaching AI",
+            "🎥 Video analysis integration",
+            "📱 Mobile companion app",
+            "🔄 External service integrations"
+          ]
+        }
+      }
+    },
+    "download": {
+      "title": "Download <span class=\"highlight\">SiegeMind</span>",
+      "subtitle": "Start improving your gameplay today with our alpha version",
+      "systemRequirements": "System Requirements:",
+      "requirements": [
+        "Windows 10 64-bit",
+        "Overwolf App",
+        "Rainbow Six Siege installed",
+        "Active internet connection"
+      ],
+      "whatsIncluded": "What's Included:",
+      "included": [
+        "AI Coaching System",
+        "Performance Analytics",
+        "Progress Tracking",
+        "Match History Analysis"
+      ],
+      "downloadButton": "Join Beta Waitlist"
+    },
+    "footer": {
+      "description": "The ultimate AI coaching companion for Rainbow Six Siege players.",
+      "product": "Product",
+      "support": "Support",
+      "links": {
+        "howItWorks": "How it Works",
+        "roadmap": "Roadmap",
+        "download": "Download",
+        "documentation": "Documentation",
+        "faq": "FAQ",
+        "contact": "Contact"
+      },
+      "copyright": "© 2025 SiegeMind. All rights reserved."
+    },
+    "meta": {
+      "title": "SiegeMind - Master Rainbow Six Siege with Your Personal AI Coach",
+      "description": "SiegeMind is the first-ever Personal AI Coaching app for Rainbow Six Siege. Get performance insights straight to your gameplay.",
+      "keywords": "Rainbow Six Siege, R6, AI coaching, gaming coach, siege analytics, performance tracking, esports, tactical shooter, ubisoft, gaming improvement"
+    }
+  },
+  "es-ES": {
+    "nav": {
+      "home": "Inicio",
+      "howItWorks": "Cómo Funciona",
+      "roadmap": "Hoja de Ruta",
+      "joinBeta": "Unirse a la Beta"
+    },
+    "hero": {
+      "title": "Domina Rainbow Six Siege<br />con tu <span class=\"highlight\">Entrenador Personal de IA</span>",
+      "subtitle": "SiegeMind es la primera aplicación de Entrenamiento Personal con IA para<br />Rainbow Six Siege. Obtén insights de rendimiento directamente en tu gameplay.",
+      "joinBeta": "Unirse a la Beta",
+      "features": {
+        "personalizedInsights": "Insights Personalizados",
+        "performanceDashboard": "Panel de Rendimiento Online",
+        "veteranProfessionals": "Creado por Profesionales Veteranos"
+      },
+      "stats": {
+        "currentUsers": "Usuarios Actuales",
+        "matchesStudied": "Partidas Estudiadas",
+        "insightsGenerated": "Insights Generados"
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo funciona SiegeMind",
+      "subtitle": "De datos de partida en bruto a insights accionables. Así es como SiegeMind transforma tu gameplay",
+      "steps": {
+        "dataCollection": {
+          "title": "Recolección de Datos",
+          "description": "SiegeMind captura automáticamente tus datos de partida, incluyendo kills, muertes, operadores usados y resultados de rondas."
+        },
+        "dataProcessing": {
+          "title": "Procesamiento de Datos",
+          "description": "Nuestra IA analiza tus patrones de rendimiento, identificando fortalezas, debilidades y oportunidades de mejora."
+        },
+        "aiAnalysis": {
+          "title": "Análisis de IA",
+          "description": "Algoritmos avanzados proporcionan insights personalizados y recomendaciones de entrenamiento basadas en tu estilo único de juego."
+        },
+        "actionableInsights": {
+          "title": "Insights Accionables",
+          "description": "Recibe informes detallados con recomendaciones específicas para mejorar tu gameplay y rendimiento competitivo."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Lo que Dicen Nuestros Usuarios",
+      "subtitle": "Desde jugadores casuales hasta profesionales, todos están trabajando en su SiegeMind",
+      "reviews": {
+        "alex": "\"SiegeMind me mostró exactamente por qué estaba perdiendo rondas. Mi posicionamiento mejoró drásticamente y finalmente llegué a Gold!\"",
+        "mike": "\"El entrenamiento de IA es increíble. Identificó patrones en mi gameplay que nunca noté. ¡Cambió el juego!\"",
+        "sarah": "\"Como jugadora competitiva, las analíticas detalladas son cruciales. SiegeMind proporciona exactamente lo que necesito.\""
+      }
+    },
+    "roadmap": {
+      "title": "<span class=\"highlight\">Hoja de Ruta</span> del Producto",
+      "subtitle": "Sigue la evolución de SiegeMind y ve qué viene después",
+      "status": {
+        "current": "ACTUAL",
+        "next": "SIGUIENTE",
+        "future": "FUTURO"
+      },
+      "phases": {
+        "core": {
+          "title": "Sistema Central de Entrenamiento de IA",
+          "features": [
+            "✅ Insights personales de partida",
+            "✅ Evaluación estratégica de IA",
+            "✅ Insights de rendimiento",
+            "✅ Revisión de analíticas de rendimiento"
+          ]
+        },
+        "enhanced": {
+          "title": "Analíticas Mejoradas",
+          "features": [
+            "📊 Panel de estadísticas avanzadas",
+            "📈 Función de comparación de jugadores",
+            "🎯 Análisis detallado de operadores",
+            "📋 Precisión mejorada de insights"
+          ]
+        },
+        "team": {
+          "title": "Características de Equipo",
+          "features": [
+            "👥 Análisis de equipo",
+            "📊 Rendimiento de escuadrón",
+            "🎮 Sistema colaborativo de entrenamiento",
+            "📈 Analíticas avanzadas de jugadores"
+          ]
+        },
+        "advanced": {
+          "title": "IA Avanzada e Integraciones",
+          "features": [
+            "🤖 IA de entrenamiento mejorada",
+            "🎥 Integración de análisis de video",
+            "📱 App móvil complementaria",
+            "🔄 Integraciones de servicios externos"
+          ]
+        }
+      }
+    },
+    "download": {
+      "title": "Descargar <span class=\"highlight\">SiegeMind</span>",
+      "subtitle": "Comienza a mejorar tu gameplay hoy con nuestra versión alpha",
+      "systemRequirements": "Requisitos del Sistema:",
+      "requirements": [
+        "Windows 10 64-bit",
+        "App Overwolf",
+        "Rainbow Six Siege instalado",
+        "Conexión activa a internet"
+      ],
+      "whatsIncluded": "Qué está Incluido:",
+      "included": [
+        "Sistema de Entrenamiento de IA",
+        "Analíticas de Rendimiento",
+        "Seguimiento de Progreso",
+        "Análisis de Historial de Partidas"
+      ],
+      "downloadButton": "Unirse a la Beta"
+    },
+    "footer": {
+      "description": "El compañero definitivo de entrenamiento de IA para jugadores de Rainbow Six Siege.",
+      "product": "Producto",
+      "support": "Soporte",
+      "links": {
+        "howItWorks": "Cómo Funciona",
+        "roadmap": "Hoja de Ruta",
+        "download": "Descargar",
+        "documentation": "Documentación",
+        "faq": "Preguntas Frecuentes",
+        "contact": "Contacto"
+      },
+      "copyright": "© 2025 SiegeMind. Todos los derechos reservados."
+    },
+    "meta": {
+      "title": "SiegeMind - Domina Rainbow Six Siege con tu Entrenador Personal de IA",
+      "description": "SiegeMind es la primera aplicación de Entrenamiento Personal con IA para Rainbow Six Siege. Obtén insights de rendimiento directamente en tu gameplay.",
+      "keywords": "Rainbow Six Siege, R6, entrenamiento de IA, entrenador de gaming, analíticas del siege, seguimiento de rendimiento, esports, tactical shooter, ubisoft, mejora de gaming"
+    }
+  }
+}
