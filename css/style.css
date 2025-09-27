@@ -55,7 +55,6 @@
 .language-selector {
   position: relative;
   display: inline-block;
-  margin-left: var(--spacing-lg);
 }
 
 .language-current {
@@ -150,11 +149,19 @@
   background: rgba(253, 205, 9, 0.3);
 }
 
-/* Mobile responsive adjustments for language selector */
+/* Mobile responsive adjustments for navigation */
 @media (max-width: 768px) {
+  .nav-right {
+    gap: var(--spacing-md);
+  }
+
+  .nav-toggle {
+    display: flex;
+    order: 2;
+  }
+
   .language-selector {
-    margin-left: var(--spacing-md);
-    order: 3;
+    order: 1;
   }
 
   .language-current {
@@ -350,6 +357,12 @@ section {
 
 .nav-title {
   display: none;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
 }
 
 .nav-menu {
@@ -982,16 +995,13 @@ section {
     --font-size-3xl: 1.75rem;
   }
 
-  .nav-menu {
-    display: none;
-  }
-
   .nav-toggle {
     display: flex;
   }
 
   .hero-title {
     font-size: var(--font-size-4xl);
+    margin-top: 8vh;
   }
 
   .hero-buttons {

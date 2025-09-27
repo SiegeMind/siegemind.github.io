@@ -443,10 +443,10 @@ class I18n {
         if (!languageSelector) {
             languageSelector = this.createLanguageSelector();
 
-            // Add to navigation
-            const navbar = document.querySelector('.navbar .container');
-            if (navbar) {
-                navbar.appendChild(languageSelector);
+            // Add to nav-right container
+            const navRight = document.querySelector('.nav-right');
+            if (navRight) {
+                navRight.appendChild(languageSelector);
             }
         }
 
