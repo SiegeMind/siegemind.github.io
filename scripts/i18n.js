@@ -187,9 +187,9 @@ class I18n {
 
     updateNavigation() {
         const navLinks = {
-            'nav-link[href="#home"]': 'nav.home',
-            'nav-link[href="#how-it-works"]': 'nav.howItWorks',
-            'nav-link[href="#roadmap"]': 'nav.roadmap',
+            '.nav-link[href="#home"]': 'nav.home',
+            '.nav-link[href="#how-it-works"]': 'nav.howItWorks',
+            '.nav-link[href="#roadmap"]': 'nav.roadmap',
             '.nav-cta': 'nav.joinBeta'
         };
 
